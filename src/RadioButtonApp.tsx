@@ -42,8 +42,6 @@ export const RadioButtonApp = () => {
           selectedMenu.splice(i + 1);
         }
       }
-
-      console.log("selectedMenu ", selectedMenu);
     }
     setSelected(selectedMenu);
   };
